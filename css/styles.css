@@ -25,6 +25,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--secondary-color-fourth);
+    background-color: #E5E5E5;
 }
 .visually-hidden{
     position: absolute;
@@ -83,10 +85,10 @@ font-family: 'Roboto',sans-serif;
     text-decoration: none;
 }
 .menu-link:hover{
-    background-color: var(--secondary-text-color-theme-light);
+    color: var(--secondary-text-color-theme-light);
 }
 .menu-link:focus{
-    background-color: var(--secondary-color-first);
+    color: var(--secondary-color-first);
 }
 
 .contact-mail {
@@ -98,7 +100,7 @@ font-family: 'Roboto',sans-serif;
         text-decoration: none;
     }
 .contact-mail:hover{
-    background-color: var(--secondary-color-first);
+    color: var(--secondary-color-first);
 }    
 
 .contact-phone-number {
@@ -110,7 +112,7 @@ font-family: 'Roboto',sans-serif;
         text-decoration: none;
     }
     .contact-phone-number:hover{
-        background-color: var(--secondary-color-first);
+        color: var(--secondary-color-first);
     }
 
     /*header*/
@@ -150,8 +152,7 @@ font-family: 'Roboto',sans-serif;
 
 /*hero*/
 /*main*/
-.secondary header{
-    font-family: 'Roboto',sans-serif;
+.secondary-header{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -161,8 +162,7 @@ font-family: 'Roboto',sans-serif;
         color: var(--primary-text-color-theme-light);
 }
 .secondary-title {
-    font-family: 'Roboto',sans-serif;
-        font-weight: 400;
+        font-weight: 700;
         font-size: 20px;
         line-height: 1.2;
         text-align: center;
@@ -170,7 +170,6 @@ font-family: 'Roboto',sans-serif;
         color: var(--primary-text-color-theme-light);
 }
 .secondary-info {
-    font-family: 'Roboto',sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -183,16 +182,14 @@ font-family: 'Roboto',sans-serif;
 }
 
 .portfolio-button {
-    font-family: 'Roboto',sans-serif;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
         color: var(--secondary-color-first);
         background-color: var(--secondary-color-third);
+        cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -226,8 +223,7 @@ font-family: 'Roboto',sans-serif;
         text-transform: uppercase;
         color: var(--secondary-color-fourth); 
 }
-.fotter-info {font-family: 'Roboto',sans-serif;
-    font-style: normal;
+.fotter-info {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
