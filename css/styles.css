@@ -26,7 +26,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--secondary-color-fourth);
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 .visually-hidden{
     position: absolute;
@@ -141,6 +141,7 @@ font-family: 'Roboto',sans-serif;
         letter-spacing: 0.04em;
         color: #FFFFFF;
         background-color: var(--secondary-color-first);
+        cursor: pointer;
 }   
 
 .modal-btn:hover {
@@ -160,6 +161,9 @@ font-family: 'Roboto',sans-serif;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--primary-text-color-theme-light);
+}
+.team-item{
+    background-color: #FFFFFF;
 }
 .secondary-title {
         font-weight: 700;
